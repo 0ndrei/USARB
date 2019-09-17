@@ -88,61 +88,92 @@ field team#blue-team player{
 
 
 #player6-red{
-	top: 150px;
-	left: 10px;
+	top: 60px;
+	left: 280px;
 }
 
 
 #player7-red{
-	top: 50px;
-	left: 120px;
+	top: 200px;
+	left: 200px;
 }
 
 #player8-red{
-	top: 150px;
-	left: 120px;
+	top: 200px;
+	left: 280px;
 }
 
 #player9-red{
-	top: 250px;
-	left: 120px;
+	top: 200px;
+	left: 320px;
 }
 
 #player10-red{
-	top: 150px;
-	left: 230px;
+	top: 330px;
+	left: 200px;
 }
 
 #player11-red{
-	top: 150px;
-	left: 230px;
+	top: 330px;
+	left: 280px;
 }
 
 
 
 #player1-blue{
-	top: 150px;
-	left: 570px;
+	top: 200px;
+	left: 777px;
 }
 
 
 #player2-blue{
-	top: 50px;
-	left: 480px;
+	top: 60px;
+	left: 680px;
 }
 
 #player3-blue{
-	top: 150px;
-	left: 480px;
+	top: 60px;
+	left: 590px;
 }
 
 #player4-blue{
-	top: 250px;
-	left: 480px;
+	top: 60px;
+	left: 490px;
 }
 
 #player5-blue{
-	top: 150px;
-	left: 390px;
+	top: 200px;
+	left: 680px;
+}
+
+#player6-blue{
+	top: 200px;
+	left: 590px;
+}
+
+
+#player7-blue{
+	top: 200px;
+	left: 490px;
+}
+
+#player8-blue{
+	top: 200px;
+	left: 440px;
+}
+
+#player9-blue{
+	top: 330px;
+	left: 680px;
+}
+
+#player10-blue{
+	top: 330px;
+	left: 590px;
+}
+
+#player11-blue{
+	top: 330px;
+	left: 490px;
 }
 
