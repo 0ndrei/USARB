@@ -1,8 +1,9 @@
 field{
 	background: LimeGreen;
-	width: 800px;
-	height: 400px;
+	width: 612px;
+	height: 369px;
 	display: block;
+	background: url(../Documents/fotbal1.jpg);
 }
 
 
@@ -13,13 +14,13 @@ field .ball{
 	width: 30px;
 	height: 30px;
 	display: inline-block;
-	margin-top: 135px;
-	margin-left: 285px;
+	margin-top: 180px;
+	margin-left: 365px;
 }
 
 field player, field referee{
-	width: 25px;
-	height: 25px;
+	width: 30px;
+	height: 30px;
 	border: 1px solid yellow;
 	border-radius: 50%;
 	text-align: center;
@@ -31,7 +32,7 @@ field player, field referee{
 field referee{
 	background: yellow;
 	top: 75px;
-	left: 300px;
+	left: 370px;
 	color: black;
 	background-image: url(../Documents/referee.png);
 }
