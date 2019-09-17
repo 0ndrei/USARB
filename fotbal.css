@@ -1,0 +1,148 @@
+field{
+	background: LimeGreen;
+	width: 800px;
+	height: 400px;
+	display: block;
+}
+
+
+field .ball{
+	background-image: url(../Documents/ball.png);
+	border-radius: 50%;
+	background-repeat: none;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-top: 135px;
+	margin-left: 285px;
+}
+
+field player, field referee{
+	width: 25px;
+	height: 25px;
+	border: 1px solid yellow;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	position: fixed;
+	margin-top: -12px; 
+}
+
+field referee{
+	background: yellow;
+	top: 75px;
+	left: 300px;
+	color: black;
+	background-image: url(../Documents/referee.png);
+}
+
+field player {
+	width: 20px;
+	border: none;
+	border-radius: 0;
+	background-color: none;
+}
+
+field player:hover{
+	width: 30px;
+	height: 30px
+}
+
+field team#red-team player{
+	background: url(../Documents/team-red.png);
+    background-size: cover;
+
+}
+
+field team#blue-team player{
+	background: url(../Documents/team-blue.png);
+	background-size: cover;
+}
+
+
+#player1-red{
+	top: 200px;
+	left: 10px;
+}
+
+
+#player2-red{
+	top: 60px;
+	left: 120px;
+}
+
+#player3-red{
+	top: 200px;
+	left: 120px;
+}
+
+#player4-red{
+	top: 330px;
+	left: 120px;
+}
+
+#player5-red{
+	top: 60px;
+	left: 200px;
+}
+
+
+#player6-red{
+	top: 150px;
+	left: 10px;
+}
+
+
+#player7-red{
+	top: 50px;
+	left: 120px;
+}
+
+#player8-red{
+	top: 150px;
+	left: 120px;
+}
+
+#player9-red{
+	top: 250px;
+	left: 120px;
+}
+
+#player10-red{
+	top: 150px;
+	left: 230px;
+}
+
+#player11-red{
+	top: 150px;
+	left: 230px;
+}
+
+
+
+#player1-blue{
+	top: 150px;
+	left: 570px;
+}
+
+
+#player2-blue{
+	top: 50px;
+	left: 480px;
+}
+
+#player3-blue{
+	top: 150px;
+	left: 480px;
+}
+
+#player4-blue{
+	top: 250px;
+	left: 480px;
+}
+
+#player5-blue{
+	top: 150px;
+	left: 390px;
+}
+
