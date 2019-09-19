@@ -1,0 +1,179 @@
+field{
+	background: LimeGreen;
+	width: 800px;
+	height: 533px;
+	display: block;
+	background: url(../img/fut_p.jpg);
+}
+
+
+field .ball{
+	background-image: url(../img/ball.png);
+	border-radius: 50%;
+	background-repeat: none;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-top: 245px;
+	margin-left: 386px;
+}
+
+field player, field referee{
+	width: 30px;
+	height: 30px;
+	border: 1px solid yellow;
+	border-radius: 50%;
+	text-align: center;
+	color: black;
+	position: absolute;
+	margin-top: -12px; 
+}
+
+field referee{
+	background: yellow;
+	top: 200px;
+	left: 391px;
+	color: black;
+	background-image: url(../img/referee.png);
+}
+
+field player {
+	width: 20px;
+	border: none;
+	border-radius: 0;
+	background-color: none;
+}
+
+field player:hover{
+	width: 30px;
+	height: 30px
+}
+
+field team#red-team player{
+	background: url(../img/team-red.png);
+    background-size: cover;
+
+}
+
+field team#blue-team player{
+	background: url(../img/team-blue.png);
+	background-size: cover;
+}
+
+
+#player1-red{
+	top: 268px;
+	left: 65px;
+}
+
+
+#player2-red{
+	top: 99px;
+	left: 170px;
+}
+
+#player3-red{
+	top: 99px;
+	left: 250px;
+}
+
+#player4-red{
+	top: 99px;
+	left: 330px;
+}
+
+#player5-red{
+	top: 431px;
+	left: 170px;
+}
+
+
+#player6-red{
+	top: 431px;
+	left: 250px;
+}
+
+
+#player7-red{
+	top: 431px;
+	left: 330px;
+}
+
+#player8-red{
+	top: 190px;
+	left: 218px;
+}
+
+#player9-red{
+	top: 190px;
+	left: 290px;
+}
+
+#player10-red{
+	top: 340px;
+	left: 218px;
+}
+
+#player11-red{
+	top: 340px;
+	left: 290px;
+}
+
+
+
+#player1-blue{
+	top: 260px;
+	left: 727px;
+}
+
+
+#player2-blue{
+	top: 99px;
+	left: 625px;
+}
+
+#player3-blue{
+	top: 99px;
+	left: 555px;
+}
+
+#player4-blue{
+	top: 99px;
+	left: 475px;
+}
+
+#player5-blue{
+	top: 431px;
+	left: 625px;
+}
+
+#player6-blue{
+	top: 431px;
+	left: 555px;
+}
+
+
+#player7-blue{
+	top: 431px;
+	left: 475px;
+}
+
+#player8-blue{
+	top: 190px;
+	left: 590px;
+}
+
+#player9-blue{
+	top: 190px;
+	left: 520px;
+}
+
+#player10-blue{
+	top: 330px;
+	left: 590px;
+}
+
+#player11-blue{
+	top: 330px;
+	left: 520px;
+}
