@@ -22,14 +22,14 @@ top: 150px;
 }
 
 @-webkit-keyframes MovingBall {
-0% {left: 65px; top: 268px;}
-5% {left: 250px; top:99px;}
-15% {left: 170px; top: 431px;}
-35% {left: 218px; top: 340px;}
-65% {left: 250px; top: 431px;}
-85% {left: 290px; top: 190px;}
-95% {left: 800px; top: 290px;}
-100% {left: 800px; top: 290px;}
+0% {left: 118px; top: 268px;}
+5% {left: 330px; top:99px;}
+15% {left: 190px; top: 431px;}
+35% {left: 350px; top: 250px;}
+65% {left: 410px; top: 340px;}
+85% {left: 550px; top: 250px;}
+95% {left: 780px; top: 280px;}
+100% {left: 780px; top: 280px;}
 }
 
 field player, field referee{
@@ -46,7 +46,7 @@ field player, field referee{
 field referee{
 	background: yellow;
 	top: 200px;
-	left: 391px;
+	left: 470px;
 	color: black;
 	background-image: url(../img/referee.png);
 }
@@ -77,18 +77,18 @@ field team#blue-team player{
 
 #player1-red{
 	top: 268px;
-	left: 65px;
+	left: 118px;
 }
 
 
 #player2-red{
-	top: 99px;
-	left: 170px;
+	top: 120px;
+	left: 190px;
 }
 
 #player3-red{
-	top: 99px;
-	left: 250px;
+	top: 250px;
+	left: 550px;
 }
 
 #player4-red{
@@ -98,13 +98,13 @@ field team#blue-team player{
 
 #player5-red{
 	top: 431px;
-	left: 170px;
+	left: 190px;
 }
 
 
 #player6-red{
-	top: 431px;
-	left: 250px;
+	top: 250px;
+	left: 350px;
 }
 
 
@@ -115,17 +115,17 @@ field team#blue-team player{
 
 #player8-red{
 	top: 190px;
-	left: 218px;
+	left: 257px;
 }
 
 #player9-red{
 	top: 190px;
-	left: 290px;
+	left: 430px;
 }
 
 #player10-red{
 	top: 340px;
-	left: 218px;
+	left: 410px;
 }
 
 #player11-red{
@@ -136,10 +136,24 @@ field team#blue-team player{
 
 
 #player1-blue{
-	top: 260px;
-	left: 727px;
+	top: 250px;
+	left: 690px;
+	-webkit-animation-name:  goolkeeper;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite;
+	position: absolute;
+	animation-timing-function: ease-in-out;
 }
-
+	@-webkit-keyframes goolkeeper {
+	0% {left: 690px; top: 250px;}
+	15% {left: 710px; top: 280px;}
+	35% {left: 660px; top: 300px;}
+	45% {left: 690px; top: 280px;}
+	55% {left: 650px; top: 270px;}
+	65% {left: 660px; top: 280px;}
+	95% {left: 690px; top: 240px;}
+	100% {left: 660px; top: 280px;}
+}
 
 #player2-blue{
 	top: 99px;
@@ -147,8 +161,8 @@ field team#blue-team player{
 }
 
 #player3-blue{
-	top: 99px;
-	left: 555px;
+	top: 180px;
+	left: 160px;
 }
 
 #player4-blue{
@@ -162,8 +176,8 @@ field team#blue-team player{
 }
 
 #player6-blue{
-	top: 431px;
-	left: 555px;
+	top: 256px;
+	left: 214px;
 }
 
 
@@ -174,17 +188,17 @@ field team#blue-team player{
 
 #player8-blue{
 	top: 190px;
-	left: 590px;
+	left: 530px;
 }
 
 #player9-blue{
 	top: 190px;
-	left: 520px;
+	left: 320px;
 }
 
 #player10-blue{
 	top: 330px;
-	left: 590px;
+	left: 190px;
 }
 
 #player11-blue{
