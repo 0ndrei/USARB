@@ -1,1 +1,4 @@
-bady {background-image: url(..IMG/fon.jpg);}
+body {
+    background: #c7b39b url(../IMG/fon.jpg); 
+    color: #fff; /
+   }
