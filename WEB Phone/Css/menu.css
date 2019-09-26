@@ -53,13 +53,6 @@
   animation: show 0.2s 1.3s ease 1 both;
 }
 
-.menu li:nth-child(4) a {
-  animation: show 0.2s 1.4s ease 1 both;
-}
-
-.menu li:nth-child(5) a {
-  animation: show 0.2s 1.5s ease 1 both;
-}
 
 @keyframes in {
   0% {
