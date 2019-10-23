@@ -1,7 +1,8 @@
 
 body {
     background: #c7b39b url(../IMG/fon.jpg); 
-    color: #fff; /
+    color: #fff; 
+    background-attachment: fixed;
    }
 
 
@@ -16,6 +17,14 @@ aside {
 
 section {
         width: 79%;
+}
+
+.video-gallery li {
+	display: inline-block;
+	border: 1px solid blue;
+	border-radius: 5px;
+	padding: 5px;
+	width: 45%;
 }
 
  
