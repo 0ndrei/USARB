@@ -1,0 +1,5 @@
+body {
+    background:url(../IMG/fon.jpg); 
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
