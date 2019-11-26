@@ -1,0 +1,186 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+    background:url(../IMG/fonprincipal.jpg); 
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+.logo{
+	position: fixed;
+	display: block;
+	margin-left:100%;
+	z-index: 100;
+
+
+}
+.btn_up{
+	position: fixed;
+	bottom: -50px;
+	right: 2%;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: url(../IMG/icon_up.png) no-repeat ;
+	background-size: contain;
+	z-index: 100;
+	outline: 0:important;
+	transition: .4s; 
+}
+
+.btn_up.after{
+	content: '';
+	width: 10px;
+	height: 10px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	margin: auto;
+
+}
+
+.btn_up.active{
+	bottom: 50px;
+}
+
+header h1{
+	font-size:50px;
+	text-align: center;
+	color:rgb(252, 0, 0)
+}
+
+aside, section {
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside{
+	display: none;
+}
+
+section{
+ 	margin-top: 5%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.blog-card {
+	display: flex;
+    margin: 1rem auto;
+	background: #fff;
+	line-height: 1.4;
+	font-family: sans-serif;
+	overflow: hidden;
+	flex-direction: column-reverse;
+	max-width: 82%;
+}
+
+.photo{
+	width: 100%;
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.blog-card .meta {
+  	position: relative;
+    width: 100%;
+	height: 200px;
+}
+
+.blog-card .description {
+    padding: 1rem;
+    background: rgb(250, 250, 250);
+    position: relative;
+  
+}
+.blog-card .description h1,
+.blog-card .description h2 {
+    font-family: Poppins, sans-serif;
+}
+
+.blog-card .description h2 {
+    text-transform: uppercase;
+    color: rgb(212, 2, 2);
+    margin-top: 5px;
+}
+.blog-card .description .read-more {
+    text-align: right;
+}
+.blog-card .description .read-more a {
+    color: #5ad67d;
+    display: inline-block;
+    position: relative;
+}
+.blog-card .description .read-more a:after {
+    font-family: FontAwesome;
+    vertical-align: middle;
+}
+.blog-card .description .read-more a:hover:after {
+    margin-left: 5px;
+    opacity: 1;
+}
+.blog-card p {
+    position: relative;
+    margin: 1rem 0 0;
+
+}
+.blog-card p:first-of-type:before {
+	content: "";
+    position: absolute;
+    height: 5px;
+	background: #5ad67d;
+	width: 100%;
+	top: -0.75rem;
+	border-radius: 3px;
+}
+
+footer{
+    color: red;
+    text-align: center;
+}
+@media screen and (min-width: 600px) {
+	section{
+		margin-top:-255px;
+		margin-left:15%; 
+	}
+	aside{
+        display: inline-block;
+    }
+	
+	.video-gallery li {
+		display: inline-block;
+		border: 1px solid red;
+		border-radius: 5px;
+		padding: 5px;
+		width: 45%;
+    }
+
+	.video{
+	    margin-top: 5%;
+	}
+
+	.contacte{
+	    margin-top:5%;
+	    width: 100%;
+	    height: 600px;
+	}
+
+@media screen and (max-width: 1200px) {
+	.video{
+	    margin-top:5%
+	}
+    .contacte{
+        margin-top: 5%;
+        width: 100%;
+        height: auto;
+    }
+}
